@@ -1,16 +1,66 @@
-# React + Vite
+# SmartShelfX – AI-Based Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SmartShelfX is a full-stack, role-based Inventory Management System designed to manage products, SKUs, vendors, purchase orders, stock movements, and analytical reports efficiently.  
+The system is built with a modern React frontend and a scalable Spring Boot backend architecture (backend integration in progress).
 
-Currently, two official plugins are available:
+This project is designed to simulate **real-world enterprise inventory workflows** used in retail, warehousing, and supply-chain environments.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔐 Authentication & Role Management
+- Secure login system
+- Role-based access control:
+  - Admin
+  - Manager
+  - Vendor
 
-## Expanding the ESLint configuration
+### 📦 Inventory Management
+- Product creation and updates
+- SKU management
+- Stock in / stock out operations
+- Stock issue tracking
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🧾 Purchase Order Management
+- Create and manage purchase orders
+- Vendor-specific purchase orders
+- Edit and update purchase details
+- Purchase price updates
+
+### 📊 Reports & Analytics
+- Product reports
+- SKU reports
+- Transaction reports
+- User reports
+- Vendor product reports
+- Pie-chart based product analysis
+
+### 🖥️ Dashboard & UI
+- Clean and responsive UI
+- Separate dashboards for each role
+- Protected routes for secure navigation
+
+---
+
+## 🧠 Tech Stack
+
+### Frontend
+- React (Vite)
+- JavaScript (ES6+)
+- Tailwind CSS
+- Axios (API communication)
+- React Router DOM
+
+### Backend (Planned / In Progress)
+- Java
+- Spring Boot
+- Spring Security
+- REST APIs
+- Maven
+- PostgreSQL / MySQL
+
+---
+
+## 📂 Project Structure
+
