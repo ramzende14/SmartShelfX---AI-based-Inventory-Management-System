@@ -1,0 +1,33 @@
+/* ================= GOOGLE FONT IMPORT (MUST BE FIRST) ================= */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* ================= TAILWIND ================= */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ================= GLOBAL RESET ================= */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* ================= LOGIN BACKGROUND ================= */
+.login-bg {
+  background-image: url('/src/assets/ecommerce.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* ================= REGISTER BACKGROUND ================= */
+.register-bg {
+  background-image: url('/src/assets/ecommerce.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
