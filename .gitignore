@@ -1,4 +1,6 @@
+############################
 # Logs
+############################
 logs
 *.log
 npm-debug.log*
@@ -7,15 +9,64 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+############################
+# Node / Vite / React
+############################
+node_modules/
+dist/
+dist-ssr/
 *.local
 
-# Editor directories and files
-.vscode/*
+############################
+# Environment
+############################
+.env
+
+############################
+# Java / Spring Boot / Maven
+############################
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+############################
+# IDEs & Editors
+############################
+
+# VS Code
+.vscode/
 !.vscode/extensions.json
-.idea
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+############################
+# OS files
+############################
 .DS_Store
 *.suo
 *.ntvs*
